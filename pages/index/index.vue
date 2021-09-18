@@ -1,21 +1,21 @@
 <template>
-	<view class="cu-bar bg-white margin-top">
-				<view class="cu-bar tabbar bg-black">
+	<view class="cu-bar bg-grey bottom-wrapper margin-top">
+			<view class="box">
+				<view class="cu-bar tabbar bg-purple">
 					<view class="action text-green">
 						<view class="cuIcon-homefill"></view> 首页
 					</view>
 					<view class="action text-gray">
-						<view class="cuIcon-similar"></view> 分类
+						<view class="cuIcon-similar"></view> 发现
 					</view>
 					<view class="action text-gray add-action">
 						<button class="cu-btn cuIcon-add bg-green shadow"></button>
-						发布
 					</view>
 					<view class="action text-gray">
 						<view class="cuIcon-cart">
 							<view class="cu-tag badge">99</view>
 						</view>
-						购物车
+						商城
 					</view>
 					<view class="action text-gray">
 						<view class="cuIcon-my">
@@ -25,7 +25,7 @@
 					</view>
 				</view>
 			</view>
-			</view>
+				</view>
 </template>
 
 <script>
@@ -44,5 +44,15 @@
 </script>
 
 <style>
-
+.box{
+	width:100vw;
+	
+	
+}
+.bottom-wrapper{
+	position:fixed;
+	bottom:0px;
+	
+	
+}
 </style>
